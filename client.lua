@@ -4,9 +4,9 @@
 ----------------------------------------------------------------------------
 Citizen.CreateThread(function()
     while true do
-	N_0x4757f00bc6323cfe(GetHashKey("WEAPON_UNARMED"), 0.1) 
+	N_0x4757f00bc6323cfe(GetHashKey("WEAPON_M60"), 3.5) 
     	Wait(0)
-    	N_0x4757f00bc6323cfe(GetHashKey("WEAPON_NIGHTSTICK"), 0.1) 
+    	N_0x4757f00bc6323cfe(GetHashKey("WEAPON_MG"), 3.5) 
     	Wait(0)
     end
 end)
