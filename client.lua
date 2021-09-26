@@ -1,18 +1,36 @@
-
-----------------------------------------------------------------------------
---DANO ARMAS (E SOCO) MELEE ///// MELEE AND WEAPONS DAMAGE 
-----------------------------------------------------------------------------
 Citizen.CreateThread(function()
     while true do
-	N_0x4757f00bc6323cfe(GetHashKey("WEAPON_UNARMED"), 0.1) 
+	    N_0x4757f00bc6323cfe(GetHashKey("WEAPON_M60"), 2.5)
     	Wait(0)
-    	N_0x4757f00bc6323cfe(GetHashKey("WEAPON_NIGHTSTICK"), 0.1) 
-    	Wait(0)
+    	N_0x4757f00bc6323cfe(GetHashKey("WEAPON_MG"), 2.5) 
+        Wait(0)
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_ASSAULTRIFLEMK2"), 2.0)
+        Wait(0)
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_CARBINERIFLEMK2"), 2.0)
+        Wait(0)
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_SPECIALCARBINEMK2"), 2.0)
+        Wait(0)
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_SNIPERRIFLE"), 0.5)
+        Wait(0)
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_ASSAULTRIFLE"), 0.5)
+        Wait(0)
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_HAVYREVOLVEL"), 0.2)
+        Wait(0)
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_GUSENBERG"),0.5)
+        Wait(0)
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_PISTOL"), 0.5)
+        Wait(0)
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_MICROSMG"), 0.5)
+        Wait(0)
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_SMOKEGRENADE"), 0)
+        Wait(0)
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_BZGAS"), 0.1)
+        Wait(0)
+        N_0x4757f00bc6323cfe(GetHashKey("WEAPON_BAT"), 0.1)
+        Wait(0)
     end
 end)
-----------------------------------------------------------------------------
---DANO CORONHADA //// PISTOL WHIPPING
-----------------------------------------------------------------------------
+
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(0)
